@@ -176,3 +176,33 @@ main{
   font-weight: 400px;
   color: #00000078;
 }
+
+/* focus section style */
+
+.focus{
+  text-align: center;
+  margin: 136px auto;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 71px 150px;
+}
+.focus h3{
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+.focus p{
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.focus img{
+  border-radius: 48px;
+  margin-top: 20px;
+}
+.focus button{
+  margin: 20px;
+}
