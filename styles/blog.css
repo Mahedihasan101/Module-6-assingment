@@ -43,3 +43,39 @@ nav {
   color: #252432;
   margin-bottom: 40px;
 }
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* action section styles */
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.action img{
+    max-width: 403px;
+    min-height: 328px;
+    border-radius: 48px;
+
+}
+.action-baner{
+    max-width: 517px;
+    min-height: 203px;
+}
+.action-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-subtitle{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 1);
+}
