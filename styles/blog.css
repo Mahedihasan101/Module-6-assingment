@@ -17,9 +17,8 @@ body {
   background-color: #4e47ff;
   padding: 12px 36px;
   border-radius: 10px;
-  
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: darkorange;
 }
 /* header section styles */
@@ -215,19 +214,24 @@ main {
   font-family: "Raleway", sans-serif;
   font-size: 97px;
   font-weight: bold;
-  width:528px;
+  width: 528px;
   color: #000000;
 }
-.touch-form{
+.touch-form {
   width: 497px;
 }
-.touch-form ,label{
+.touch-form label {
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
-.touch ,input[type="email"],.touch,input[type="text"],.touch ,textarea{
+.touch,
+input[type="email"],
+.touch,
+input[type="text"],
+.touch,
+textarea {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -237,45 +241,55 @@ main {
   background-color: #ffffff;
   padding: 20px;
   width: 100%;
-  margin-bottom: 20px;
-  border: none;
-   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  margin: 10px 0 20px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+textarea {
+  resize: none;
+  height: 135px;
+}
+
+#form-btn {
+  width: 100%;
 }
 /* footer style */
-footer{
+footer {
   background-color: #ffffff;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
   margin: auto;
   min-height: 428px;
 }
-footer h2{
+footer h2 {
   font-family: "Inter", sans-serif;
   font-size: 100px;
   font-weight: 900;
-  color: #4E47FF;
+  color: #4e47ff;
   margin-bottom: 10px;
 }
-footer p{
+footer p {
   margin-bottom: 20px;
   width: 581px;
-  align-items: center;
+  text-align: center;
 }
-footer p,ul li a{
+footer p,
+ul li a {
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  color:rgba(137, 135, 161, 1);
+  color: rgba(137, 135, 161, 1);
 }
-footer ul li{
+footer ul li {
   list-style: none;
 }
-footer li a{
+footer li a {
   text-decoration: none;
 }
-footer ul{
+footer ul {
   display: flex;
   gap: 48px;
 }
