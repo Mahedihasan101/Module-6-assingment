@@ -17,6 +17,10 @@ body {
   background-color: #4e47ff;
   padding: 12px 36px;
   border-radius: 10px;
+  
+}
+.btn-primary:hover{
+  background-color: darkorange;
 }
 /* header section styles */
 .header {
